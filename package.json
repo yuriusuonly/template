@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "author": {
+    "name": "Yuriusu",
+    "email": "yuriusu.dev@gmail.com",
+    "url": "https://yuriusuonly.github.io"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/yuriusuonly/template#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuriusuonly/template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yuriusuonly/template/issues",
+    "email": "yuriusu.dev@gmail.com"
+  },
+  "type": "module",
+  "engines": {
+    "bun": ">=1.4.2"
+  },
+  "os": [
+    "linux",
+    "darwin"
+  ],
+  "scripts": {
+    "opencode": "bun x --bun opencode"
+  },
+  "devDependencies": {
+    "opencode-ai": "^1.18.32"
+  }
+}
