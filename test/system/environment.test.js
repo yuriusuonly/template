@@ -66,6 +66,10 @@ test("load throws EnvironmentError when the file is missing", async () => {
   expect(thrown.cause).toBeTruthy();
 });
 
+test("load tolerates a missing file when optional", async () => {
+  expect(await load(join(root, "missing-optional.env"), { optional: true })).toEqual({});
+});
+
 test("optional and required read the environment", () => {
   env.ANOMALIES_TEST_KEY = "value";
 

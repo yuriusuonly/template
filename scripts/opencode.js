@@ -28,7 +28,7 @@ const args = rawArguments();
 
 const environment = {
   ...processEnv,
-  ...(await loadEnvironment(join(root, ".env")))
+  ...(await loadEnvironment(join(root, ".env"), { optional: true }))
 };
 const cli = join(root, "node_modules", ".bin", "opencode");
 

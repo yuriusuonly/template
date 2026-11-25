@@ -26,7 +26,7 @@ chdir(root);
 
 const args = rawArguments();
 
-const values = await loadEnvironment(join(root, ".env"));
+const values = await loadEnvironment(join(root, ".env"), { optional: true });
 const environment = {
   ...processEnv,
   ...values,

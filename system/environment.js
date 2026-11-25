@@ -38,12 +38,15 @@ const parse = (contents) => ({ ...parseEnv(contents) });
  * Loads and parses a `.env` file.
  *
  * @param {string} [path=DEFAULT_PATH] - Path to the file.
+ * @param {object} [options={}] - Options.
+ * @param {boolean} [options.optional] - Return an empty map when the file is missing.
  * @returns {Promise<object>} Parsed environment map.
  */
-const load = async (path = DEFAULT_PATH) => {
+const load = async (path = DEFAULT_PATH, options = {}) => {
   try {
     return parse(await readFile(path, "utf8"));
   } catch (cause) {
+    if (options.optional && cause?.code === "ENOENT") return {};
     throw EnvironmentError(`Unable to load env file: ${path}`, cause);
   }
 };

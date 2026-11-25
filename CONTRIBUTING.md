@@ -110,7 +110,7 @@ Thrown values are the exception. A module with a real failure path defines a pri
 | `argument.js` | Throws `ArgumentError` for invalid input |
 | `console.js` | Delegates to `node:console`; throws `ConsoleError` with `cause` for a failed built-in call |
 | `date.js` | Returns `""` or a `valid: false` object for invalid input |
-| `environment.js` | Throws `EnvironmentError` with `cause` |
+| `environment.js` | `load()` throws `EnvironmentError` with `cause`, except with `{ optional: true }`, which returns `{}` for a missing file |
 | `io.js` | Throws `IoError` with `cause` |
 | `os.js` | Cannot fail |
 | `path.js` | Throws `PathError` for failed filesystem operations and missing paths in `details()` |

@@ -31,7 +31,7 @@ Install dependencies once before running anything:
 bun install
 ```
 
-Then create `.env` in the project root. It is gitignored, so it stays out of commits; every value is a quoted string.
+Then create `.env` in the project root with the values described below. It is gitignored, so it stays out of commits; every value is a quoted string. The launchers treat a missing `.env` as an empty environment, so tests also run in CI without one.
 
 ## `.env`
 
