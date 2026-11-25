@@ -1,32 +1,30 @@
 {
   "private": true,
-  "author": {
-    "name": "Yuriusu",
-    "email": "yuriusu.dev@gmail.com",
-    "url": "https://yuriusuonly.github.io"
-  },
-  "license": "UNLICENSED",
-  "homepage": "https://github.com/yuriusuonly/template#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yuriusuonly/template.git"
-  },
-  "bugs": {
-    "url": "https://github.com/yuriusuonly/template/issues",
-    "email": "yuriusu.dev@gmail.com"
-  },
   "type": "module",
   "engines": {
-    "bun": ">=1.4.2"
+    "bun": ">=1.4.5"
   },
   "os": [
-    "linux",
-    "darwin"
+    "linux"
   ],
   "scripts": {
-    "opencode": "bun x opencode"
+    "bun": "bun ./scripts/bun.js",
+    "bun:test": "bun ./scripts/bun.js test",
+    "gh": "bun ./scripts/gh.js",
+    "gh:secrets": "bun ./scripts/gh.js secret set -f ./.env",
+    "git": "bun ./scripts/git.js",
+    "git:push": "bun ./scripts/git.js push origin HEAD",
+    "opencode": "bun ./scripts/opencode.js",
+    "skill": "bun ./scripts/skill.js"
+  },
+  "allowScripts": {
+    "@opencode/cli": true
   },
   "devDependencies": {
-    "opencode-ai": "^1.18.32"
-  }
+    "@opencode/cli": "^2.4.1",
+    "skills": "^1.9.0"
+  },
+  "trustedDependencies": [
+    "@opencode/cli"
+  ]
 }

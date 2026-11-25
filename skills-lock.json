@@ -1,0 +1,173 @@
+{
+  "version": 2,
+  "skills": {
+    "account-and-team-context": {
+      "source": "github/github-mcp-server",
+      "commit": "c6b62954c062b3ad779f4e208716e09cb4a723e0",
+      "sourceType": "github",
+      "skillPath": "pkg/skills/catalog/skills/account-and-team-context/SKILL.md",
+      "computedHash": "e3b07e4100f1b5a132f87a7b695aabf78dc5fab292c421ee8ca4500b5ccada97"
+    },
+    "codebase-exploration": {
+      "source": "github/github-mcp-server",
+      "commit": "c6b62954c062b3ad779f4e208716e09cb4a723e0",
+      "sourceType": "github",
+      "skillPath": "pkg/skills/catalog/skills/codebase-exploration/SKILL.md",
+      "computedHash": "ffeeb15357b8434ccf7cd60de6cc491e98e3246a55d4c8cafc527c4da77dcc6c"
+    },
+    "copilot-task-delegation": {
+      "source": "github/github-mcp-server",
+      "commit": "c6b62954c062b3ad779f4e208716e09cb4a723e0",
+      "sourceType": "github",
+      "skillPath": "pkg/skills/catalog/skills/copilot-task-delegation/SKILL.md",
+      "computedHash": "49bf29c4e6adb0cd259883692ea88c4706bd5381b040d7303113cda4e1a374b4"
+    },
+    "create-github-action-workflow-specification": {
+      "source": "github/awesome-copilot",
+      "commit": "f10fdb8b2660ce85c98f220b2f1ca24653768a5c",
+      "sourceType": "github",
+      "skillPath": "skills/create-github-action-workflow-specification/SKILL.md",
+      "computedHash": "df127912e6985e328bb396bba8fa6944e0770ab8e644e9d4b5b24fe30a093dbf"
+    },
+    "diagnose-ci-gate": {
+      "source": "github/awesome-copilot",
+      "commit": "f10fdb8b2660ce85c98f220b2f1ca24653768a5c",
+      "sourceType": "github",
+      "skillPath": "skills/diagnose-ci-gate/SKILL.md",
+      "computedHash": "035b7efde513596d0a460e727b2147f56942338d4b5366b0a449416c1161e6a0"
+    },
+    "discussion-participation": {
+      "source": "github/github-mcp-server",
+      "commit": "c6b62954c062b3ad779f4e208716e09cb4a723e0",
+      "sourceType": "github",
+      "skillPath": "pkg/skills/catalog/skills/discussion-participation/SKILL.md",
+      "computedHash": "915747553b50c148d145275f6207290f7c06098db6cfccb7f29c1b932e7a258b"
+    },
+    "github-actions-efficiency": {
+      "source": "github/awesome-copilot",
+      "commit": "f10fdb8b2660ce85c98f220b2f1ca24653768a5c",
+      "sourceType": "github",
+      "skillPath": "skills/github-actions-efficiency/SKILL.md",
+      "computedHash": "1e29703ead16150c7a746ba4eaba1680239636f3da1a616adf4a58b06943c874"
+    },
+    "github-actions-hardening": {
+      "source": "github/awesome-copilot",
+      "commit": "f10fdb8b2660ce85c98f220b2f1ca24653768a5c",
+      "sourceType": "github",
+      "skillPath": "skills/github-actions-hardening/SKILL.md",
+      "computedHash": "ce7df8e90622480a41ffae4a81c78dbf4de3a6965cc21a91693efdf15fb3284c"
+    },
+    "github-actions-runtime-upgrade-conventions": {
+      "source": "github/awesome-copilot",
+      "commit": "f10fdb8b2660ce85c98f220b2f1ca24653768a5c",
+      "sourceType": "github",
+      "skillPath": "skills/github-actions-runtime-upgrade-conventions/SKILL.md",
+      "computedHash": "e8ddc49f3c7ce94c02e1e994866c09c7b3806817f4cf453523e4527725ea63dc"
+    },
+    "issue-authoring": {
+      "source": "github/github-mcp-server",
+      "commit": "c6b62954c062b3ad779f4e208716e09cb4a723e0",
+      "sourceType": "github",
+      "skillPath": "pkg/skills/catalog/skills/issue-authoring/SKILL.md",
+      "computedHash": "463ab867634262716e425d869f103a415379184bbc9876bfd3dfcb9038564a58"
+    },
+    "issue-backlog-triage": {
+      "source": "github/github-mcp-server",
+      "commit": "c6b62954c062b3ad779f4e208716e09cb4a723e0",
+      "sourceType": "github",
+      "skillPath": "pkg/skills/catalog/skills/issue-backlog-triage/SKILL.md",
+      "computedHash": "48ac3c1edb19df2cbb66686a84464fa251b523c5f7410b046e8318d290958e9c"
+    },
+    "label-scheme-management": {
+      "source": "github/github-mcp-server",
+      "commit": "c6b62954c062b3ad779f4e208716e09cb4a723e0",
+      "sourceType": "github",
+      "skillPath": "pkg/skills/catalog/skills/label-scheme-management/SKILL.md",
+      "computedHash": "e4a6a50c8b2ac596ef49d4a700cd66fbdb36e3c92776f57555711faaad20c200"
+    },
+    "notification-triage": {
+      "source": "github/github-mcp-server",
+      "commit": "c6b62954c062b3ad779f4e208716e09cb4a723e0",
+      "sourceType": "github",
+      "skillPath": "pkg/skills/catalog/skills/notification-triage/SKILL.md",
+      "computedHash": "7ba1296574fed246e617818f1abc2ec2ebe6c7b806d9d87270eaf46a1f2aa9c3"
+    },
+    "project-planning": {
+      "source": "github/github-mcp-server",
+      "commit": "c6b62954c062b3ad779f4e208716e09cb4a723e0",
+      "sourceType": "github",
+      "skillPath": "pkg/skills/catalog/skills/project-planning/SKILL.md",
+      "computedHash": "445b06cc1c7adc46724eeb505c86a0422f95c69449183cac978816d0451be65a"
+    },
+    "pull-request-authoring": {
+      "source": "github/github-mcp-server",
+      "commit": "c6b62954c062b3ad779f4e208716e09cb4a723e0",
+      "sourceType": "github",
+      "skillPath": "pkg/skills/catalog/skills/pull-request-authoring/SKILL.md",
+      "computedHash": "47d2740905cc60849b1bd14f3a5044da389d499df39bd78abe7c08821dc1ce3a"
+    },
+    "pull-request-code-review": {
+      "source": "github/github-mcp-server",
+      "commit": "c6b62954c062b3ad779f4e208716e09cb4a723e0",
+      "sourceType": "github",
+      "skillPath": "pkg/skills/catalog/skills/pull-request-code-review/SKILL.md",
+      "computedHash": "7e66421dbf5daea7a23f1cd37acb3d490acd6348eb6717edcb7e36832743f0f6"
+    },
+    "pull-request-review-feedback": {
+      "source": "github/github-mcp-server",
+      "commit": "c6b62954c062b3ad779f4e208716e09cb4a723e0",
+      "sourceType": "github",
+      "skillPath": "pkg/skills/catalog/skills/pull-request-review-feedback/SKILL.md",
+      "computedHash": "7d0a3de11120a264dfb0db397dc03a6a9b7d78d6e67a0f9585855750ade5c848"
+    },
+    "release-preparation": {
+      "source": "github/github-mcp-server",
+      "commit": "c6b62954c062b3ad779f4e208716e09cb4a723e0",
+      "sourceType": "github",
+      "skillPath": "pkg/skills/catalog/skills/release-preparation/SKILL.md",
+      "computedHash": "7e544ea1b432604ed0d27a213147b173ae2129a1855f522eb76efe5319f76cb3"
+    },
+    "repository-content-changes": {
+      "source": "github/github-mcp-server",
+      "commit": "c6b62954c062b3ad779f4e208716e09cb4a723e0",
+      "sourceType": "github",
+      "skillPath": "pkg/skills/catalog/skills/repository-content-changes/SKILL.md",
+      "computedHash": "d06cde66dd80391cb5bf52b1d97faf3fc801ac038d61a37e46fd7743595ef389"
+    },
+    "repository-discovery": {
+      "source": "github/github-mcp-server",
+      "commit": "c6b62954c062b3ad779f4e208716e09cb4a723e0",
+      "sourceType": "github",
+      "skillPath": "pkg/skills/catalog/skills/repository-discovery/SKILL.md",
+      "computedHash": "e7d7b7323d7d673c174a463e0a85463019f5b08484a61ea53649c15712c0630f"
+    },
+    "repository-health-review": {
+      "source": "github/github-mcp-server",
+      "commit": "c6b62954c062b3ad779f4e208716e09cb4a723e0",
+      "sourceType": "github",
+      "skillPath": "pkg/skills/catalog/skills/repository-health-review/SKILL.md",
+      "computedHash": "d9c2adfaea3b9b3f80e63a2396e34c9206bd1271b7bccadf59dcd6eceaa20146"
+    },
+    "security-alert-triage": {
+      "source": "github/github-mcp-server",
+      "commit": "c6b62954c062b3ad779f4e208716e09cb4a723e0",
+      "sourceType": "github",
+      "skillPath": "pkg/skills/catalog/skills/security-alert-triage/SKILL.md",
+      "computedHash": "8cd95c2d21fcd03bcc81fc23666e153e2569b7b27ffbf7e08796c960a407fe4d"
+    },
+    "verify-agent-action": {
+      "source": "github/awesome-copilot",
+      "commit": "f10fdb8b2660ce85c98f220b2f1ca24653768a5c",
+      "sourceType": "github",
+      "skillPath": "skills/verify-agent-action/SKILL.md",
+      "computedHash": "b27ab0962e45b9dfd336e59f274e06fc0511f10fd2e2c9ef08be24eecd33019c"
+    },
+    "workflow-failure-triage": {
+      "source": "github/github-mcp-server",
+      "commit": "c6b62954c062b3ad779f4e208716e09cb4a723e0",
+      "sourceType": "github",
+      "skillPath": "pkg/skills/catalog/skills/workflow-failure-triage/SKILL.md",
+      "computedHash": "ecd61cb95cd97c5197e18d4d896296c19f93a4e01e5a55b34aa6ddc0b224aba3"
+    }
+  }
+}
