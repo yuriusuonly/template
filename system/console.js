@@ -111,7 +111,7 @@ const warn = (...values) => call("warn", values);
 const error = (...values) => call("error", values);
 
 /**
- * Runs a sync or async task with its arguments, then prints the result and elapsed time.
+ * Runs a sync or async task with its arguments, then prints only the elapsed time.
  *
  * @param {Function} task - Function to run and time.
  * @param {...unknown} args - Arguments to pass to the task.
@@ -121,7 +121,6 @@ const debug = async (task, ...args) => {
   const measured = await measure(() => task(...args));
 
   call("debug", [
-    measured.result,
     `${measured.duration.milliseconds.toFixed(3)}ms`
   ]);
 

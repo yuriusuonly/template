@@ -81,7 +81,7 @@ export {
 | Functions | Arrow functions only; never the `function` keyword |
 | Language | Vanilla JavaScript (ESM); no TypeScript files or type annotations |
 | Built-ins | Wrap the corresponding Node built-in instead of reimplementing it; `argument.js` delegates to `node:util.parseArgs` and `console.js` to `node:console` |
-| Console | `console.js` exports `info`, `warn`, `error`, `debug`, and `trace`; `error` prints errors, `debug(task, ...args)` times a sync or async task and prints its result with time, and object values use `util.inspect` at unlimited depth |
+| Console | `console.js` exports `info`, `warn`, `error`, `debug`, and `trace`; `error` prints errors, `debug(task, ...args)` times a sync or async task and prints only its elapsed duration, and object values use `util.inspect` at unlimited depth |
 
 - In `system/*`, import Node builtins from `node:*` modules; prefer named bindings from `node:process` over globals. Scripts import only from `system/*`.
 - `system/io.js` uses synchronous `node:fs` calls and exposes no stream helpers; `system/path.js` owns filesystem structure operations.

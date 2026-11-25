@@ -86,15 +86,15 @@ test("trace is an individual wrapper", async () => {
   ]);
 });
 
-test("debug runs a sync task with arguments and prints its result and time", async () => {
+test("debug runs a sync task with arguments and prints only its elapsed time", async () => {
   let result = null;
   const calls = await capture(["debug", "trace"], async () => {
     result = await logger.debug((first, second) => first + second, 2, 3);
   });
 
   expect(result).toBe(5);
-  expect(calls.debug[0][0]).toBe(5);
-  expect(calls.debug[0][1]).toMatch(/ms$/);
+  expect(calls.debug[0].length).toBe(1);
+  expect(calls.debug[0][0]).toMatch(/^\d+\.\d{3}ms$/);
   expect(calls.trace.length).toBe(0);
 });
 
@@ -108,8 +108,8 @@ test("debug awaits an async task with arguments", async () => {
   });
 
   expect(result).toBe("DONE");
-  expect(calls.debug[0][0]).toBe("DONE");
-  expect(calls.debug[0][1]).toMatch(/ms$/);
+  expect(calls.debug[0].length).toBe(1);
+  expect(calls.debug[0][0]).toMatch(/^\d+\.\d{3}ms$/);
   expect(calls.trace.length).toBe(0);
 });
 
