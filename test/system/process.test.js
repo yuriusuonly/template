@@ -40,7 +40,7 @@ test("exec returns stdout and a zero code", () => {
 });
 
 test("exec honours an explicit encoding override", () => {
-  const command = "printf 'caf\\xc3\\xa9'";
+  const command = `"${execPath}" -e "process.stdout.write('café')"`;
   expect(exec(command).stdout).toBe("café");
   expect(exec(command, { encoding: "latin1" }).stdout).toBe("cafÃ©");
 });
